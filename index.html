@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+	<title>Karaoke | Bem Querer </title>
+</head>
+<body>
+	<code>
+		<?php
+		$rebola = "Cai com a bunda e fica";
+		$capaz = " que é capaz";
+
+		for ($repeat = 0; $repeat < 2; $repeat++) {
+			echo   "Meu bem querer <br/>";
+			echo  "Como é bom te ver <br/>";
+			echo  "É ruim de mais <br/>";
+			echo  "A falta que tu faz <br/>";
+
+			for ($i=0; $i < 3 ; $i++) {
+				echo  "Hoje tu tá de volta pra mostrar" . $capaz ."<br/>";
+			}
+
+			for ($i=0; $i < 3 ; $i++) {
+				echo  $capaz ."<br/>";
+			}
+
+			for ($i=0; $i < 3 ; $i++) {
+				echo  $rebola . " rebola e vai <br/>";
+			}
+
+			echo  $rebola . "<br/>" ;
+			echo  "Tá demais <br/>";
+
+			for ($i=1; $i <= 12 ; $i++) {
+				echo  "Oh vai";
+				echo (($i%4) != 0) ?  ", "  : "<br/>" ;
+			}
+
+			echo "<br/>";
+		}
+		?>
+	</code>
+</body>
+</html>
